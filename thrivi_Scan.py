@@ -41,5 +41,5 @@ def send_results(file_path, scan_type, assessment_name, import_type, client_id,c
 client_id = "****"
 client_secret = "pat1_***"
 #send_results('path_to_your_report_file.ext', 'YourScanType', 'YourAssessmentName', 'new', client_id, client_secret, scan_target)
-send_results('trivy_mix.json', 'trivi Scan', 'SnykTestAssessment', 'new', client_id, client_secret, "com.example.tests/example:latest")
+send_results('trivy_mix.json', 'trivi Scan', 'ImportNightmare', 'new', client_id, client_secret, "com.example.tests/example:latest")
 #use com.example.tests/example:latest for the container name
